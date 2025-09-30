@@ -1,0 +1,88 @@
+* {margin: 0.1; 
+padding: 0;
+box-sizing: border-box;}
+html {font-size: 62.5%;}
+body {font-family: "Anta";
+    font-size: 1.5rem; 
+    line-height: 1.5; 
+    background-color: rgb(72, 157, 226); 
+    color: rgb(255, 187, 0); 
+    display: flex; 
+    flex-direction: column;
+     min-height: 100vh; }
+.header {background-color: rgb(255, 255, 255)
+    ; display: flex;
+    padding: 0.2rem;
+justify-content: space-between;
+align-items: center;}
+.header__logo {padding: 0.5rem;
+margin-left: 3rem ;
+height: 15rem;
+width: 20rem;}
+.header__nav {padding: 5rem;
+margin-right: 1rem; 
+margin-left: 1rem; 
+solid color(display-p3 red green blue);}
+.header__home {padding: 5rem; 
+    margin-left: 1rem; 
+}
+.header__home a{font-size: 1.5rem; 
+    font-weight: bold; 
+    color: rgb(255, 187, 0); 
+    text-decoration: none;}
+.header__nav ul {font-size: 1.5rem;
+font-weight: bold; 
+list-style:none; 
+display:flex; 
+justify-content:center; 
+gap:1rem;}
+.header__nav a { text-decoration: none; 
+    color: rgb(255, 187, 0);
+display: inline-block;
+padding: 1rem;}
+
+.footer{padding: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+font-size: 1.5rem;
+margin-top: auto;
+font-weight: bold;
+}
+.main {width: 95%;
+margin: 2rem auto; 
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.main h1{font-size: 3rem;
+align-items: center;
+margin: 2rem 0;
+}
+.productos-home{width: 100%;}
+.productos-home h2{font-size: 2.5rem;
+text-align: center; 
+padding: 1rem;
+margin: 3rem;
+}
+.contenedor-tarjetas{ display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 2rem;}
+.tarjeta-producto{padding: 1rem;
+background-color: white;
+border-radius: 1rem;
+width: auto;}
+.tarjeta-producto h3{
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(72, 157, 226);
+}
+.tarjeta-producto p{    
+    text-align: center;
+    font-size: 2rem;
+color: black;}
+/*.tarjeta-producto img{width: 100%;
+border-radius: 0.5;}
+
