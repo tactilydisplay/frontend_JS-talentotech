@@ -6,7 +6,7 @@ body {font-family: "Anta";
     font-size: 1.5rem; 
     line-height: 1.5; 
     background-color: rgb(72, 157, 226); 
-    color: rgb(255, 187, 0); 
+    color: black; 
     display: flex; 
     flex-direction: column;
      min-height: 100vh; }
@@ -22,7 +22,7 @@ width: 20rem;}
 .header__nav {padding: 5rem;
 margin-right: 1rem; 
 margin-left: 1rem; 
-solid color(display-p3 red green blue);}
+}
 .header__home {padding: 5rem; 
     margin-left: 1rem; 
 }
@@ -30,14 +30,17 @@ solid color(display-p3 red green blue);}
     font-weight: bold; 
     color: rgb(255, 187, 0); 
     text-decoration: none;}
-.header__nav ul {font-size: 1.5rem;
+.header__nav ul {font-size: 2rem;
 font-weight: bold; 
 list-style:none; 
 display:flex; 
 justify-content:center; 
-gap:1rem;}
+gap:1rem;
+border-radius: 1rem;
+border-color: white;
+border-style: groove;}
 .header__nav a { text-decoration: none; 
-    color: rgb(255, 187, 0);
+    color: black;
 display: inline-block;
 padding: 1rem;}
 
@@ -72,7 +75,9 @@ flex-wrap: wrap;
 gap: 2rem;}
 .tarjeta-producto{padding: 1rem;
 background-color: white;
-border-radius: 1rem;
+border-radius: 3rem;
+border-style: groove;
+border-color: white;
 width: auto;}
 .tarjeta-producto h3{
     text-align: center;
@@ -83,6 +88,36 @@ width: auto;}
     text-align: center;
     font-size: 2rem;
 color: black;}
+.formulario{
+    display:inline-block;
+    padding: 3.5rem;
+    gap: 20rem;
+    border-radius: 2rem;
+    border-style: groove;
+    border-color: white;
+    background-color: white;
+}
+.formulario p{
+    text-align: center;
+    font-size: 3rem;
+}
+.boton-form{
+    border-radius: 1rem;
+    background-color: rgb(72, 157, 226) ;
+    font-size: 2rem;
+    color: white;
+    border-color: gray;
+    align-self: flex-start  ;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 20rem;
+}
+
+
 /*.tarjeta-producto img{width: 100%;
-border-radius: 0.5;}
+border-radius: 0.5;}/*
+
+
 
